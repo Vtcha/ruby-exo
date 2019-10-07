@@ -38,7 +38,7 @@ describe "#translate" do
 
   it "counts 'qu' as a consonant even when it's preceded by a consonant" do
     s = translate("square")
-    expect(s).to eq("uaresquay")
+    expect(s).to eq("uaresqay")
   end
 
   it "translates many words" do
