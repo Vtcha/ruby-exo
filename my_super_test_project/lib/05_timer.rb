@@ -20,12 +20,7 @@
         
         end
         
-        def chrono.to_s( time)
-        if time_to_s > 3600
-            heure += 1
-        else "#{time}"
-        
-        end
+
         
     
     heure + ":" + minute + ":" + seconds
